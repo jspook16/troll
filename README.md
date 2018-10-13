@@ -57,3 +57,4 @@ Goals: (If anyone is interested)
 - I've got some other ideas that i think might be pretty good. Depening on the size of data that can be transferred with either KV or Oracles CC.
 
 Let me know what you all think.
+ 
