@@ -24,21 +24,34 @@ rpcworkqueue=256
 
 rpcallowip=127.0.0.1
 
+
+
 addnode=73.201.153.236
+
 addnode=70.119.217.80
+
 addnode=45.32.204.239
+
 addnode=45.32.227.213
+
 addnode=45.32.210.35
+
 
 
 Then run LIZ (or whatever chain you want to troll on). LIZ is a 50% PoW and 50% PoS asset chain.
 If LIZ
+
 ./src/komodod -ac_name=LIZ -ac_supply=100000000 -ac_reward=10000000000 -ac_halving=250000 -ac_end=3000000 -ac_staked=50 -gen -genproclimit=$(nproc)
+
 NOTE: The last two parameters are optional if you would like to mine LIZ (donate some hash power)
 You can either remove them and start it with:
+
 ./src/komodod -ac_name=LIZ -ac_supply=100000000 -ac_reward=10000000000 -ac_halving=250000 -ac_end=3000000 -ac_staked=50
+
 or specify less threads to mine with such as 
+
 ./src/komodod -ac_name=LIZ -ac_supply=100000000 -ac_reward=10000000000 -ac_halving=250000 -ac_end=3000000 -ac_staked=50 -gen -genproclimit=1
+
 
 When you run troll_Linux.py it will first ask for a few things
 - Username for Session
