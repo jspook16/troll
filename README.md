@@ -8,7 +8,7 @@ If you dont already have Komodo installed, you'll need to install komodo first. 
 
 If you want to test on LIZ you'll need to create a LIZ directory and LIZ.conf file in .komodo/LIZ/
 
-# Add the following to it:
+Add the following to it:
 rpcuser=yourrpcusername
 rpcpassword=yoursecurerpcpassword
 rpcport=52928
