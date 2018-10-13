@@ -1,5 +1,5 @@
 # troll
-Komodo Asset Chain KV Troll
+troll_Linux.py (only tested on ubuntu. dont expect it to work on windows or mac yet)
 Allows for a simple Troll Box in a Terminal that should run on any Komodo Asset Chain (z-only chains (such as Pirate) not tested and would require some tweaking if even possible). This has been tested on the Lizze Asset Chain (LIZ). Whatever asset chain you choose to Troll on must be running before starting troll_Linux.py.
 
 I'm not a coder so the code may be brute at best. Always welcome to guidance or help :) I commented as best as I could so others could try to follow what I did. I'm pulling messages from mempool before blocks mine which seems pretty quick. I don't know how this will handle with alot of input yet. IF anyone wants to clean up the code, please feel free. 
@@ -48,6 +48,7 @@ Notes:
  
 Goals: (If anyone is interested)
 - Clean up/optimize the code first and foremost.
+- Write scripts for windows and mac
 - Create a simple GUI
 - Perhaps transfer to oracles instead of KV for messaging and if not at least use oracles for username/pw management
 - Dispaly the following in GUI: local mining hashrate, global mining hashrate, balance.
