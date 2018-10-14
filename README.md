@@ -57,7 +57,7 @@ When you run troll_Linux.py it will first ask for a few things
 - Username for Session
 - Directory Path where komodod is installed (Make sure to include all of the forward slashes such as:
     /home/mydirectroy/komodo/src/
--Asset Chain you wish to Troll on
+- Asset Chain you wish to Troll on
 Then simply troll away!!
 
 Notes:
